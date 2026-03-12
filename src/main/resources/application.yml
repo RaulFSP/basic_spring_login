@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: baisc_login
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  datasource:
+    username: root
+    password:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      path: /h2
