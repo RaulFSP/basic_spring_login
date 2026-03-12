@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package io.github.baisc_login.service;
+package io.github.basic_login.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -10,12 +10,12 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import io.github.baisc_login.dto.request.UsuarioCreateRequest;
-import io.github.baisc_login.model.Role;
-import io.github.baisc_login.model.Usuario;
-import io.github.baisc_login.repository.RoleRepository;
-import io.github.baisc_login.repository.UsuarioRepository;
-import io.github.baisc_login.util.UsuarioBuilder;
+import io.github.basic_login.dto.request.UsuarioCreateRequest;
+import io.github.basic_login.model.Role;
+import io.github.basic_login.model.Usuario;
+import io.github.basic_login.repository.RoleRepository;
+import io.github.basic_login.repository.UsuarioRepository;
+import io.github.basic_login.util.UsuarioBuilder;
 
 /**
  *

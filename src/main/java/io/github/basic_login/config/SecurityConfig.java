@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package io.github.baisc_login.config;
+package io.github.basic_login.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,8 +16,8 @@ import org.springframework.security.config.annotation.web.configurers.HeadersCon
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import io.github.baisc_login.filter.LoginFilter;
-import io.github.baisc_login.service.UsuarioService;
+import io.github.basic_login.filter.LoginFilter;
+import io.github.basic_login.service.UsuarioService;
 
 /**
  *
@@ -52,7 +52,7 @@ public class SecurityConfig {
                 })
                 .formLogin(form -> {
                     form.loginProcessingUrl("/login").permitAll();
-                    form.defaultSuccessUrl("/usuarios/home");
+                    form.defaultSuccessUrl("/usuarios/home", true);
                     form.failureUrl("/login?error=true");
 
                 })

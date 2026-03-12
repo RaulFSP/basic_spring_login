@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github</groupId>
-    <artifactId>baisc_login</artifactId>
+    <artifactId>basic_login</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>baisc_login</name>
+    <name>basic_login</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>

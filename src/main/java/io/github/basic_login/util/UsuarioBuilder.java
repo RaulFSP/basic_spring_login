@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package io.github.baisc_login.util;
+package io.github.basic_login.util;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -10,8 +10,8 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import io.github.baisc_login.model.Role;
-import io.github.baisc_login.model.Usuario;
+import io.github.basic_login.model.Role;
+import io.github.basic_login.model.Usuario;
 
 /**
  *
